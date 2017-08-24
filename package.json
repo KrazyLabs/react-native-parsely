@@ -1,6 +1,6 @@
 {
   "name": "@krazylabs/react-native-parsely",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Cross-Platform React Native module exposing parse.ly's android SDK.",
   "main": "index.js",
   "scripts": {

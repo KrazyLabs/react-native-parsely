@@ -11,6 +11,7 @@ import com.facebook.react.modules.core.DeviceEventManagerModule;
 
 import com.parsely.parselyandroid.*;
 
+
 public class RNParselyModule extends ReactContextBaseJavaModule {
     public static final String REACT_CLASS = "RNParsely";
     private static ReactApplicationContext reactContext = null;
@@ -18,6 +19,7 @@ public class RNParselyModule extends ReactContextBaseJavaModule {
     public RNParselyModule(ReactApplicationContext context) {
         super(context);
         this.reactContext = context;
+
     }
 
     @Override
@@ -27,6 +29,6 @@ public class RNParselyModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void track (String url) {
-        ParselyTracker.sharedInstance().trackURL(url);
+        ParselyTracker.sharedInstance("thekrazycouponlady.com", this.reactContext).trackURL(url);
     }
 }

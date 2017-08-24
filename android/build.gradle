@@ -29,12 +29,6 @@ repositories {
     mavenCentral()
 }
 
-packagingOptions {
-     exclude 'META-INF/LGPL2.1'
-     exclude 'META-INF/LICENSE'
-     exclude 'META-INF/NOTICE'
- }
-
 dependencies {
     compile 'com.facebook.react:react-native:0.19.+'
     compile 'org.codehaus.jackson:jackson-core-lgpl:1.9.13'

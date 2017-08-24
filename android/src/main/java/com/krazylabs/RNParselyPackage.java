@@ -1,4 +1,3 @@
-//  Created by react-native-create-bridge
 
 package com.krazylabs;
 

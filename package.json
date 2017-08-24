@@ -1,6 +1,6 @@
 {
   "name": "react-native-parsely",
-  "version": "2.0.0",
+  "version": "0.1.0",
   "description": "Cross-Platform React Native module exposing parse.ly's android SDK.",
   "main": "index.js",
   "scripts": {

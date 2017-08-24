@@ -1,5 +1,5 @@
 
-package com.krazylabs;
+package com.krazylabs.parsely;
 
 import android.support.annotation.Nullable;
 

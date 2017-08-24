@@ -1,5 +1,5 @@
 
-package com.krazylabs;
+package com.krazylabs.parsely;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

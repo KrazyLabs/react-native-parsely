@@ -1,0 +1,23 @@
+{
+  "name": "react-native-parsely",
+  "version": "2.0.0",
+  "description": "Cross-Platform React Native module exposing parse.ly's android SDK.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Ian Brune <ian.brune@thekrazycouponlady.com>",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "react-native": ">=0.46.0"
+  },
+  "homepage": "https://github.com/KrazyLabs/react-native-parsely",
+  "bugs": "https://github.com/KrazyLabs/react-native-parsely/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KrazyLabs/react-native-parsely"
+  }
+}
